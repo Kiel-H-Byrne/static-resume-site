@@ -1,0 +1,23 @@
+{
+  "name": "static-resume-site",
+  "version": "1.0.0",
+  "description": "Kiel Byrne's Resume Site",
+  "main": "index.html",
+  "repository": "https://github.com/tdotholla/static-resume-site.git",
+  "author": "Justin K.B. Wallace",
+  "license": "Private",
+  "private": false,
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "desandro-matches-selector": "^2.0.2",
+    "ev-emitter": "^2.1.0",
+    "fizzy-ui-utils": "^3.0.0",
+    "get-size": "^2.0.3",
+    "isotope-layout": "^3.0.6",
+    "jquery": "^3.6.0",
+    "masonry-layout": "^4.2.2",
+    "outlayer": "^2.1.1"
+  }
+}
