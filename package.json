@@ -8,11 +8,17 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.5.2",
+    "@emotion/react": "^11",
+    "@emotion/server": "^11",
+    "@emotion/styled": "^11",
     "@netlify/functions": "^1.3.0",
     "@remix-run/netlify": "^1.14.3",
     "@remix-run/node": "^1.14.3",
     "@remix-run/react": "^1.14.3",
     "cross-env": "^7.0.3",
+    "framer-motion": "^6",
+    "isbot": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

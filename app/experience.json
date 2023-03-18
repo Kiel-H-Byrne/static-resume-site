@@ -1,0 +1,555 @@
+{
+  "basics": {
+    "name": "Kiel H. Byrne",
+    "label": "I build… with my hands, with code, with my networks, with my community.",
+    "image": "",
+    "email": "kiel.byrne@gmail.com",
+    "phone": "",
+    "url": "https://kielbyrne.com",
+    "summary": "🤔 An entrepreneurial problem solver and life-long-learner, I obsess over optimizing systems with engineered products or services 🛠️\n\n📚 A project-driven extroverted introvert;  laser focused on delivering a project and communicate effectively to stakeholders and non-technical audiences. 🗣️",
+    "location": {
+      "countryCode": "US",
+      "address": "United States"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "kielbyrne",
+        "url": "https://www.linkedin.com/in/kielbyrne/"
+      },
+      {
+        "network": "Twitter",
+        "username": "TdotHolla",
+        "url": "https://twitter.com/TdotHolla"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Gopuff",
+      "position": "Software Engineer -  Digital Merchandising / I18N",
+      "startDate": "2022-01-31",
+      "endDate": "2023-03-31",
+      "highlights": [],
+      "summary": "⬩ Contribute to internationalization libraries to enforce industry standards\n⬩ Automate and administer localization processes, facilitating engineer and translator efficiencies\n⬩ Document i18n best practices & engineering systems while training engineers\n⬩ Develop features aligned with driving more consumer interaction to targeted merchandise",
+      "url": "https://www.linkedin.com/company/gopuff/",
+      "location": "United States"
+    },
+    {
+      "name": "CoStar Group",
+      "position": "Software Engineer - Internationalization",
+      "startDate": "2021-03-31",
+      "endDate": "2022-01-31",
+      "highlights": [],
+      "summary": "⬩ Created custom documentation and presentations to educate various business units and audiences on i18n concepts and best practices.\n⬩ Collaborated and consulted with other engineering teams and business units to integrate internationalization (i18n) systems and implement localization (l10n) workflows.\n⬩ Created various scripts, monitoring and visualization tools to monitor l10n progress across multiple projects/teams.\n⬩ Provided technical expertise and engineered solutions to in-house Translation Manager to optimize l10n and translation (t9n) processes.",
+      "url": "https://www.linkedin.com/company/costar-group/",
+      "location": "Washington, District of Columbia, United States"
+    },
+    {
+      "name": "CoStar Group",
+      "position": "Associate Software Engineer - Internationalization",
+      "startDate": "2019-11-30",
+      "endDate": "2021-03-31",
+      "highlights": [],
+      "summary": "⬩ Created tools and scripts to aid in the identification of issues that would hinder or prevent i18n.\n⬩ Created monitoring and visualization resources to track i18n progress through milestones\n⬩ Prepared educational content to assist in helping teams prepare for and understand the nuances of i18n.",
+      "url": "https://www.linkedin.com/company/costar-group/",
+      "location": "Washington D.C. Metro Area"
+    },
+    {
+      "name": "Perkins and Will",
+      "position": "IT Services Manager",
+      "startDate": "2015-04-30",
+      "endDate": "2019-11-30",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/perkins-will/",
+      "location": "Washington D.C. Metro Area"
+    },
+    {
+      "name": "PAKKE",
+      "position": "Technical Co-Founder",
+      "startDate": "2017-04-30",
+      "endDate": "2019-03-31",
+      "highlights": [],
+      "summary": "Δ   Defined the technical architecture, system design, and roadmap of the PAKKE product.\nΔ   Built platform which grew to 650+ profiles created, 800+ subscribers, 210 ticketing transactions within first 9 months.",
+      "url": "https://www.linkedin.com/company/pakke/",
+      "location": "Washington D.C. Metro Area"
+    },
+    {
+      "name": "HOK",
+      "position": "IT Support Specialist",
+      "startDate": "2013-08-31",
+      "endDate": "2015-04-30",
+      "highlights": [],
+      "summary": "+ Tier 1-3 support of hardware, software systems, and peripherals; including networking LAN and WLAN management. \n+ Support global user-base on weekly basis via helpdesk ticketing system. \n+ Provisioning and configuration of employee accounts and equipment throughout their life cycles. \n+ Created technical documentation of processes and systems, as well as provided training sessions for staff. \n+ Directly support of at most four offices at a time, equating to 200+ users in four cities. \n+ Personal responsibility for fostering a ‘green workplace’ through sustainable work practices and technology policy.",
+      "url": "https://www.linkedin.com/company/hok/"
+    },
+    {
+      "name": "HOK",
+      "position": "IT Support Specialist",
+      "startDate": "2012-11-30",
+      "endDate": "2013-08-31",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/hok/"
+    },
+    {
+      "name": "HOK",
+      "position": "IT Support Specialist",
+      "startDate": "2012-03-31",
+      "endDate": "2012-11-30",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/hok/"
+    },
+    {
+      "name": "Rent The Runway",
+      "position": "IT Developer",
+      "startDate": "2011-06-30",
+      "endDate": "2012-03-31",
+      "highlights": [],
+      "summary": "• Administer all network, Internet, VOIP, cellular, security, A/V, deskside systems, and end-user software throughout their lifecycles; from procurement and configuration through maintenance, updates, and monitoring.\n• Creation of I.T. related budgets, network usage, bandwidth and other reports.\n• Creation and maintenance of technical documentation libraries including inventories and manuals.\n• Created and led training programs in order to boost business productivity via user education.\n• Administered the creation of an 'Intranet' which comprises corporate calendars, current events, frequented documents, social media feeds, and other resources.",
+      "url": "https://www.linkedin.com/company/rent-the-runway/",
+      "location": "Manhattan, NY"
+    },
+    {
+      "name": "Kallen & Lemelson, Consulting Engineers, LLP",
+      "position": "Plumbing & Fire Protection Design Engineer",
+      "startDate": "2009-12-31",
+      "endDate": "2010-12-31",
+      "highlights": [],
+      "summary": "• Provided plumbing, fire protection, and life safety consulting support to various international clientele. Projects include but are not limited to; healthcare facilities, schools, industrial structures.",
+      "url": "https://www.linkedin.com/company/kallen-&-lemelson-consulting-engineers-llp/"
+    },
+    {
+      "name": "Fiskaa, LLC",
+      "position": "Plumbing & Fire Protection Design Engineer",
+      "startDate": "2007-12-31",
+      "endDate": "2009-12-31",
+      "highlights": [],
+      "summary": "•\tProvided plumbing, fire protection, and life safety consulting support to various international clientele. Projects include but are not limited to; hotels, amusement park, residential, commercial and government office buildings, retail, healthcare facilities, schools. \n•\tCreated cost schedules for the plumbing and life safety systems involved on projects.\n•\tManaged small team of CAD operators to efficiently satisfy tight deadlines.\n•\tAwarded funds to obtain Plumbing Systems certificate at NYU.",
+      "url": "https://www.linkedin.com/company/fiskaa-llc/",
+      "location": "Greater New York City Area"
+    },
+    {
+      "name": "United States Department of Defense",
+      "position": "Technical Engineer Intern",
+      "startDate": "2006-12-31",
+      "endDate": "2006-12-31",
+      "highlights": [],
+      "summary": "• Document the Source Selection Process for DoD Close Combat Solutions.\n• Assisted in the testing and documentation of various CC warfare solutions.",
+      "url": "https://www.linkedin.com/company/deptofdefense/",
+      "location": "Picatinny Arsenal"
+    },
+    {
+      "name": "IBM",
+      "position": "Facilities Engineer Intern",
+      "startDate": "2005-12-31",
+      "endDate": "2005-12-31",
+      "highlights": [],
+      "summary": "• Map existing piping infrastructure for TJ Watson Research Facility\n• Give recommendations for the redesign of Distributed Fluid Systems.",
+      "url": "https://www.linkedin.com/company/ibm/",
+      "location": "Yorktown Heights, NY"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Westchester Medical Center, a member of WMCHealth",
+      "position": "Ambulatory Surgery Auxiliary Services",
+      "startDate": "1998-05-31",
+      "endDate": "2001-08-31",
+      "summary": "Volunteered in the Ambulatory department, transporting patients around the hospital either admitting/discharging via wheelchair; or room transfers via wheeled bed.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/21721"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Maryland Baltimore County",
+      "area": "Mechanical Engineering",
+      "studyType": "",
+      "startDate": "2001-12-31",
+      "endDate": "2006-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Fordham Preparatory School",
+      "area": "",
+      "studyType": "High School Diploma",
+      "startDate": "1999-12-31",
+      "endDate": "2001-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "NYU School of Professional Studies",
+      "area": "Plumbing Systems Design",
+      "studyType": "",
+      "startDate": "2009-02-28",
+      "endDate": "2009-05-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Preventing Workplace Harassment",
+      "issuer": "emtrain",
+      "startDate": "2018-02-28"
+    },
+    {
+      "name": "Remote Work Foundations",
+      "issuer": "LinkedIn",
+      "startDate": "2021-03-31",
+      "url": "https://www.linkedin.com/learning/certificates/1f828443431fe2929919e9860c787d637983d7523d46c77b8012f52c12efeedc?trk=backfilled_certificate"
+    },
+    {
+      "name": "React: Testing and Debugging",
+      "issuer": "LinkedIn",
+      "startDate": "2021-04-30",
+      "url": "https://www.linkedin.com/learning/certificates/f4a016bbab8f5c0ac2b048847c6858fa64541c87fd44f6a5de44b0ba2a9e2500?trk=backfilled_certificate"
+    },
+    {
+      "name": "Learning PowerShell",
+      "issuer": "LinkedIn",
+      "startDate": "2021-04-30",
+      "url": "https://www.linkedin.com/learning/certificates/d638910ff0e952d08371b84ec92bce3f84329d9e10e96dfb6282d248dfba70a5?trk=backfilled_certificate"
+    },
+    {
+      "name": "JavaScript: Patterns",
+      "issuer": "LinkedIn",
+      "startDate": "2021-04-30",
+      "url": "https://www.linkedin.com/learning/certificates/203710a8ef5e0a12384682fcfbadc83ca539b24d7857fc10f8985e042c2f79ff?trk=backfilled_certificate"
+    },
+    {
+      "name": "Sketch: Working with Developers",
+      "issuer": "LinkedIn",
+      "startDate": "2016-12-31",
+      "url": "https://www.linkedin.com/learning/certificates/f9c15224a8cbf5f0467fedc161aaf66daa04898649f36a044389b74ca14f8094?trk=backfilled_certificate"
+    },
+    {
+      "name": "End-to-End JavaScript Testing with Cypress.io",
+      "issuer": "LinkedIn",
+      "startDate": "2021-07-31",
+      "url": "https://www.linkedin.com/learning/certificates/ceb4e973adea5feebcf4975d4f3fa963fab9dac5600584aa179c812feba6a26d?trk=backfilled_certificate"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Documentation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Creative Problem Solving",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Troubleshooting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Perkins&Will",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cascading Style Sheets (CSS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Responsive Web Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Support",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Event Planning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MS Project",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Jest",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Logic Pro",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Research",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Consulting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Audio Engineering",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Networking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Internationalization ",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SASS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Drawing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "i18n",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Strategic Planning",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IT Service Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Leadership",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Office",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Github",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Network Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Public Speaking",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "React.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CAD",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Social Media",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Active Directory",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software as a Service (SaaS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Technical Writing",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Team Building",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "OS X",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "NoSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "IT Consulting",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Computer Hardware",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Documentation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "System Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Business Process Improvement",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Customer Service",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Meteor.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Creative Suite",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Sysouk Vongphasouk",
+      "reference": "It was a true pleasure knowing and working with Kiel while he ventured his career in the Southern California area. Kiel extrudes great confidence and positive energy.  Along with his upbeat spirit and team attitude, he is one of few, who makes the work environment feel that more enjoyable for all of his fellow peers.\r\n\r\nHe is very knowledgeable in the IT field with a leading presence in helping others understand its complexity. He shows great professional curiosity while controlling his patience.  Kiel is organized, focus and has the determination to achieve results.\r\n\r\nKiel's unique style and coolness is one of a kind.  It complements his positive attitude and I highly recommend knowing and anyway being part of Kiel."
+    },
+    {
+      "name": "Keith Wanser, CPD",
+      "reference": "Kiel is a great Plumbing / Fire Protection designer.   He has good design techniques and works great in a team.  He is easy to get along with and has much knowledge in his field.  I can think of a few projects I could not have gotten through if it weren't for brainstorming with Kiel!  I hope one day to possibly have the chance to work with him again."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Strategic Mobility Plan - NORTA",
+      "startDate": "2017-05-31",
+      "summary": "• Narrated the 'Strategic Mobility Plan' as presented to the New Orleans Regional Transportation Authority.\n• Produced and Edited final audio, mixed with video and converted to compressed video format.",
+      "url": null,
+      "endDate": "2017-05-31"
+    },
+    {
+      "name": "\"The MoBB\"",
+      "startDate": "2017-12-31",
+      "summary": "• Map-based PWA; a crowd sourced and curated database of black-owned businesses in the USA with 1400+ listings\n• Meteor, MongoDB, Google Analytics API, materialize-css, opengraph-io API, IpInfo API, Yelp API, Google Places API\n• Opengraph API to pull the most recent images for each business\n• Reactive geolocation-based “nearest business” suggestions",
+      "url": "http://mobb.kielbyrne.com",
+      "endDate": "2017-12-31"
+    },
+    {
+      "name": "Multimodal Transportation Plan-Fairfax",
+      "startDate": "2016-11-30",
+      "summary": "• Narrated the 'Multimodal Transportation Plan' as presented to the City of Fairfax.\n• Produced and Edited final audio, mixed with video and converted to compressed video format.",
+      "url": null,
+      "endDate": "2016-11-30"
+    },
+    {
+      "name": "The Diligent Citizen ",
+      "startDate": "2016-12-31",
+      "summary": "• Allowing end-users to be involved in the political decision-making process down to the district level, starting with a simple zipcode search\n• Meteor, MongoDB, OpenData.gov API, SunlightLabs API\n• Zipcode-based search for all district-related data via various APIs\n• Pre-filled contact forms and templates\n• Wordcloud to display trends in local bills/policies",
+      "url": null,
+      "endDate": "2016-12-31"
+    },
+    {
+      "name": "\"P+WITW\"",
+      "startDate": "2019-02-28",
+      "summary": "• Location-based asset management web-app with over 2700 data points. \n• React, Redux, Material-UI, Google Maps API, ipInfo API, restDB API, MySQL, SASS, recharts, chromaJS, date-fns, material-table \n• PowerShell script as “agent” on each asset, reports to mSQL DB\n• ExpressJS API server communicates with mSQL DB and uses React and Google Maps to display graphs and asset locations\n• End users may search, filter, sort and print data with material-table, view reactive svg charts with two-color interpolation and variable data points",
+      "url": "http://pwitw.netlify.com",
+      "endDate": "2019-05-31"
+    },
+    {
+      "name": "wHY Architecture Consulting",
+      "startDate": "2013-01-31",
+      "summary": "• Configured home office for Founding Partner, including site-to-site connection to remote office location; allowing for the relocation of key staff and facilitation of business continuity during months-long office renovations.\n• Repaired and reconfigured anti-virus, DHCP, DNS, and file sharing/storage (DFS/NAS) systems—including the automation of backup processes.\n• Automated logon processes for consistent end-user environments across offices and devices.",
+      "url": null,
+      "endDate": "2013-08-31"
+    }
+  ]
+}
