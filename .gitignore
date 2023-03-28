@@ -7,3 +7,4 @@ yarn-error.log
 /.netlify
 .env
 /_archive
+.DS_Store
