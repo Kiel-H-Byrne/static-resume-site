@@ -1,7 +1,5 @@
 import {
   Box,
-  PositionProps,
-  Pseudos,
   Container,
   Divider,
   Heading,
@@ -11,11 +9,12 @@ import {
   Text,
 } from "@chakra-ui/react";
 import React from "react";
-import ReactEmbedGist from "react-embed-gist";
+import ReactTyped from "react-typed";
+
 import ColorModeSwitch from "../../ColorModeSwitch";
 import MainNav from "../../MainNav";
+import ReactEmbedGist from "../../ReactGist";
 import experience from "../experience.json";
-import coolKielImg from "./assets/img/coolkiel.jpg";
 const formatDate = (date) => {
   return new Date(date).getFullYear();
 };
@@ -29,7 +28,9 @@ const styles = {
     color: "#45505b",
   },
   listItem: {
-    padding: "0 0 20px 20px",
+    padding: "0",
+    paddingTop: "20px",
+    paddingBottom: "20px",
     marginTop: "-2px",
     borderLeft: "2px solid #622F75",
     position: "relative",
@@ -72,6 +73,63 @@ export default function Index() {
     <Container>
       <ColorModeSwitch />
       <MainNav />
+      <Box id="AboveTheFold">
+        <Heading>
+          Kiel Hamilton <span className="brand"> Byrne</span>
+        </Heading>
+        <Text>
+          {"I Am "}
+          <ReactTyped
+            strings={[
+              "a Software Developer",
+              "an I.T. Consultant",
+              "a Voice Actor / Audio Engineer",
+              "a Father / Husband / Brethren",
+              "an Alchemist",
+              "a Life-Long Learner",
+            ]}
+          />
+        </Text>
+        <Box className="social-links" h={24}>
+          <a
+            href="https://twitter.com/tdotholla"
+            title="twitter"
+            className="twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="bx bxl-twitter"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/tdotholla"
+            title="facebook"
+            className="facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="bx bxl-facebook"></i>
+          </a>
+          {/* <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>  */}
+          <a
+            href="https://github.com/tdotholla"
+            title="github"
+            className="github"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="bx bxl-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/KielByrne/"
+            title="linkedin"
+            className="linkedin"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="bx bxl-linkedin"></i>
+          </a>
+        </Box>
+      </Box>
       <Box
         h="100vh"
         bg="rgba(255,0,0,0.1)"
@@ -90,7 +148,6 @@ export default function Index() {
           Current Spotify Top Songs:
         </Heading>
         <ReactEmbedGist gist="Kiel-H-Byrne/9418a89d75a728575ad26f48cb074f08" />
-        {/* <script src="https://gist.github.com/Kiel-H-Byrne/9418a89d75a728575ad26f48cb074f08.js"></script> */}
       </Box>
       <Box>
         <Heading as={"h1"} size={"lg"}>
@@ -105,11 +162,15 @@ export default function Index() {
         </Box>
         <List id="resumeEducation">
           <Heading style={styles.sectionHeader}>Education</Heading>
-          {education.map((el) => (
-            <ListItem style={styles.listItem} _before={styles.listItemBefore}>
-              <Heading style={styles.titleHeading}>{el.area}</Heading>
-              <Text style={styles.dates}>{el.endDate}</Text>
-              <Text style={styles.institution}>{el.institution}</Text>
+          {education.map((e) => (
+            <ListItem
+              style={styles.listItem}
+              _before={styles.listItemBefore}
+              key={e.institution}
+            >
+              <Heading style={styles.titleHeading}>{e.area}</Heading>
+              <Text style={styles.dates}>{e.endDate}</Text>
+              <Text style={styles.institution}>{e.institution}</Text>
             </ListItem>
           ))}
         </List>

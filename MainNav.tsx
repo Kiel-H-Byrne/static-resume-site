@@ -1,44 +1,30 @@
-import { NavLink } from "@remix-run/react";
+import { List, ListItem } from "@chakra-ui/react";
+import { Links, NavLink } from "@remix-run/react";
 import React from "react";
+import { navLinks } from "./metadata.json";
 
 const MainNav = () => {
   const activeStyle = {
     textDecoration: "underline",
   };
-  const activeClassName = "underline";
   return (
-    <nav>
-      <ul>
-        <li>
-          <NavLink
-            to="voice"
-            style={({ isActive }) => (isActive ? activeStyle : undefined)}
-          >
-            Voice Over Demo Reel
-          </NavLink>
-        </li>
-        <li>
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive ? activeClassName : undefined
-            }
-            end
-          >
-            Home
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="blog">
-            {({ isActive }) => (
-              <span className={isActive ? activeClassName : undefined}>
-                Blog
-              </span>
-            )}
-          </NavLink>
-        </li>
-      </ul>
+    // <header id="header">
+    <nav className="nav-menu">
+      <List>
+        <Links />
+        {navLinks.map((l) => (
+          <ListItem key={l.link}>
+            <NavLink
+              to={l.link}
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              {l.text ?? l.link.toUpperCase()}
+            </NavLink>
+          </ListItem>
+        ))}
+      </List>
     </nav>
+    // </header>
   );
 };
 

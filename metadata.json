@@ -1,0 +1,15 @@
+{
+  "title": "Kiel H. Byrne - Resume",
+  "charset": "utf-8",
+  "viewport": "width=device-width,initial-scale=1",
+  "navLinks": [
+    { "link": "/", "text": "" },
+    { "link": "blog", "text": "" },
+    { "link": "about", "text": "" },
+    { "link": "resume", "text": "" },
+    { "link": "portfolio", "text": "" },
+    { "link": "services", "text": "" },
+    { "link": "contact", "text": "" },
+    { "link": "voice", "text": "Voice Over Demo Reel" }
+  ]
+}

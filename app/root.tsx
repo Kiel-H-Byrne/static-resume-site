@@ -1,6 +1,8 @@
 import React, { useContext, useEffect } from "react";
 import { withEmotionCache } from "@emotion/react";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+import "./assets/css/main.css";
+import * as MetaData from "../metadata.json";
 import {
   Links,
   LiveReload,
@@ -24,9 +26,9 @@ const colors = {
 const theme = extendTheme({ colors });
 
 export const meta: MetaFunction = () => ({
-  charset: "utf-8",
-  title: "New Remix App",
-  viewport: "width=device-width,initial-scale=1",
+  charset: MetaData.charset,
+  title: MetaData.title,
+  viewport: MetaData.viewport,
 });
 
 export let links: LinksFunction = () => {
