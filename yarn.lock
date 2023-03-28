@@ -1195,6 +1195,13 @@
   dependencies:
     "@chakra-ui/shared-utils" "2.0.5"
 
+"@chakra-ui/icons@^2.0.17":
+  version "2.0.17"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-2.0.17.tgz#625a46d169707aad36d65c04a4626a422f92e5ae"
+  integrity sha512-HMJP0WrJgAmFR9+Xh/CBH0nVnGMsJ4ZC8MK6tMgxPKd9/muvn0I4hsicHqdPlLpmB0TlxlhkBAKaVMtOdz6F0w==
+  dependencies:
+    "@chakra-ui/icon" "3.0.16"
+
 "@chakra-ui/image@2.0.15":
   version "2.0.15"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-2.0.15.tgz#7f275f8f3edbb420e0613afd5023ad9cf442d09d"
@@ -2852,6 +2859,13 @@
   version "18.0.11"
   resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-18.0.11.tgz#321351c1459bc9ca3d216aefc8a167beec334e33"
   integrity sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-embed-gist@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@types/react-embed-gist/-/react-embed-gist-1.0.1.tgz#2fdb29233e97e512f32d5007593888abb1348380"
+  integrity sha512-3eAtMg+BapFQKVyqS7jui5Gd3PJqDYhU/yYdxVct1eUS8YX5zyoN4p72EPx7mUtcetmvQSVE6WwKeO5YHaNM6A==
   dependencies:
     "@types/react" "*"
 
@@ -7164,6 +7178,11 @@ react-dom@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-embed-gist@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/react-embed-gist/-/react-embed-gist-1.0.16.tgz#c1108c027a9b1590218a732a075566cdcbe25eaa"
+  integrity sha512-x8SdMYBFgpXXVuVrZp5rbGJlF5j1qy6QPyvZ8X+eb46mz1GIFr512iMBE1HYBOkpJplr7SJITP//fK1qkBzFsQ==
 
 react-fast-compare@3.2.0:
   version "3.2.0"

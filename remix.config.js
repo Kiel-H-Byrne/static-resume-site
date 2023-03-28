@@ -6,7 +6,8 @@ module.exports = {
       ? "./server.js"
       : undefined,
   serverBuildPath: ".netlify/functions-internal/server.js",
-  // appDirectory: "app",
-  // assetsBuildDirectory: "public/build",
-  // publicPath: "/build/",
+  appDirectory: "app",
+  // serverBuildTarget: "netlify",
+  // assetsBuildDirectory: "public/build/assets",
+  publicPath: "/dist/",
 };

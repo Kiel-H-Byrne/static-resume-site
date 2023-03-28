@@ -162,6 +162,15 @@
   ],
   "education": [
     {
+      "institution": "Excelsior College",
+      "area": "Information Technology Management",
+      "studyType": "",
+      "startDate": "2012-01-31",
+      "endDate": "2012-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
       "institution": "University of Maryland Baltimore County",
       "area": "Mechanical Engineering",
       "studyType": "",
@@ -172,7 +181,7 @@
     },
     {
       "institution": "Fordham Preparatory School",
-      "area": "",
+      "area": "Regents & AP Program",
       "studyType": "High School Diploma",
       "startDate": "1999-12-31",
       "endDate": "2001-12-31",
