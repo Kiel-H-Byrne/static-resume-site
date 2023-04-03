@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { withEmotionCache } from "@emotion/react";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
-import "./assets/css/main.css";
 import * as MetaData from "../metadata.json";
 import {
   Links,

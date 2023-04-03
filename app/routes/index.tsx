@@ -10,11 +10,14 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import ReactTyped from "react-typed";
+import { navLinks } from "../../metadata.json";
 
 import ColorModeSwitch from "../../ColorModeSwitch";
 import MainNav from "../../MainNav";
 import ReactEmbedGist from "../../ReactGist";
+import Sidebar from "../../SideBar";
 import experience from "../experience.json";
+import { NavLink } from "@remix-run/react";
 const formatDate = (date) => {
   return new Date(date).getFullYear();
 };
@@ -70,143 +73,146 @@ const styles = {
 export default function Index() {
   const { work, education, awards, skills, basics, certificates } = experience;
   return (
-    <Container>
-      <ColorModeSwitch />
-      <MainNav />
-      <Box id="AboveTheFold">
-        <Heading>
-          Kiel Hamilton <span className="brand"> Byrne</span>
-        </Heading>
-        <Text>
-          {"I Am "}
-          <ReactTyped
-            strings={[
-              "a Software Developer",
-              "an I.T. Consultant",
-              "a Voice Actor / Audio Engineer",
-              "a Father / Husband / Brethren",
-              "an Alchemist",
-              "a Life-Long Learner",
-            ]}
-          />
-        </Text>
-        <Box className="social-links" h={24}>
-          <a
-            href="https://twitter.com/tdotholla"
-            title="twitter"
-            className="twitter"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="bx bxl-twitter"></i>
-          </a>
-          <a
-            href="https://www.facebook.com/tdotholla"
-            title="facebook"
-            className="facebook"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="bx bxl-facebook"></i>
-          </a>
-          {/* <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>  */}
-          <a
-            href="https://github.com/tdotholla"
-            title="github"
-            className="github"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="bx bxl-github"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/KielByrne/"
-            title="linkedin"
-            className="linkedin"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="bx bxl-linkedin"></i>
-          </a>
+    <Box>
+      <Sidebar>
+        <ColorModeSwitch />
+        {/* <MainNav /> */}
+        <Box
+          h="100vh"
+          bg="rgba(255,0,0,0.1)"
+          zIndex="-10"
+          bgImage={"url('https://kielbyrne.com/assets/img/coolkiel.jpg')"}
+          opacity={"15%"}
+          top="0"
+          bgSize="cover"
+          pos="absolute"
+          right="0"
+          left="0"
+          bottom="0"
+        />
+        <Box id="hero">
+          <Heading>
+            Kiel Hamilton <span className="brand"> Byrne</span>
+          </Heading>
+          <Text>
+            {"I Am "}
+            <ReactTyped
+              strings={[
+                "a Software Developer",
+                "an I.T. Consultant",
+                "a Voice Actor / Audio Engineer",
+                "a Father / Husband / Brethren",
+                "an Alchemist",
+                "a Life-Long Learner",
+              ]}
+            />
+          </Text>
+          <Box className="social-links" h={24}>
+            <a
+              href="https://twitter.com/tdotholla"
+              title="twitter"
+              className="twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-twitter"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/tdotholla"
+              title="facebook"
+              className="facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-facebook"></i>
+            </a>
+            {/* <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>  */}
+            <a
+              href="https://github.com/tdotholla"
+              title="github"
+              className="github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/KielByrne/"
+              title="linkedin"
+              className="linkedin"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="bx bxl-linkedin"></i>
+            </a>
+          </Box>
         </Box>
-      </Box>
-      <Box
-        h="100vh"
-        bg="rgba(255,0,0,0.1)"
-        zIndex="-10"
-        bgImage={"url('https://kielbyrne.com/assets/img/coolkiel.jpg')"}
-        opacity={"15%"}
-        top="0"
-        bgSize="cover"
-        pos="absolute"
-        right="0"
-        left="0"
-        bottom="0"
-      />
-      <Box id="spotifyBox">
-        <Heading as={"h1"} size={"lg"}>
-          Current Spotify Top Songs:
-        </Heading>
-        <ReactEmbedGist gist="Kiel-H-Byrne/9418a89d75a728575ad26f48cb074f08" />
-      </Box>
-      <Box>
-        <Heading as={"h1"} size={"lg"}>
-          CAREER & EDUCATION
-        </Heading>
-        <Divider />
-        <Box id="resumeSummary">
+
+        <Box id="spotifyBox">
           <Heading as={"h1"} size={"lg"}>
-            {basics.name}
+            Current Spotify Top Songs:
           </Heading>
-          <Text as={"p"}>{basics.summary}</Text>
+          <ReactEmbedGist gist="Kiel-H-Byrne/9418a89d75a728575ad26f48cb074f08" />
         </Box>
-        <List id="resumeEducation">
-          <Heading style={styles.sectionHeader}>Education</Heading>
-          {education.map((e) => (
-            <ListItem
-              style={styles.listItem}
-              _before={styles.listItemBefore}
-              key={e.institution}
-            >
-              <Heading style={styles.titleHeading}>{e.area}</Heading>
-              <Text style={styles.dates}>{e.endDate}</Text>
-              <Text style={styles.institution}>{e.institution}</Text>
-            </ListItem>
-          ))}
-        </List>
-        <List id="professionalExperience">
-          <Heading
-            as={"h4"}
-            size={"md"}
-            color={"blackAlpha.500"}
-            style={styles.sectionHeader}
-          >
-            My professional and educational experiences.
+        <Box>
+          <Heading as={"h1"} size={"lg"}>
+            CAREER & EDUCATION
           </Heading>
-          {work.map((w) => (
-            <ListItem
-              key={w.startDate}
-              style={styles.listItem}
-              _before={styles.listItemBefore}
+          <Divider />
+          <Box id="resumeSummary">
+            <Heading as={"h1"} size={"lg"}>
+              {basics.name}
+            </Heading>
+            <Text as={"p"}>{basics.summary}</Text>
+          </Box>
+          <List id="resumeEducation">
+            <Heading style={styles.sectionHeader}>Education</Heading>
+            {education.map((e) => (
+              <ListItem
+                style={styles.listItem}
+                _before={styles.listItemBefore}
+                key={e.institution}
+              >
+                <Heading style={styles.titleHeading}>{e.area}</Heading>
+                <Text style={styles.dates}>{e.endDate}</Text>
+                <Text style={styles.institution}>{e.institution}</Text>
+              </ListItem>
+            ))}
+          </List>
+          <List id="professionalExperience">
+            <Heading
+              as={"h4"}
+              size={"md"}
+              color={"blackAlpha.500"}
+              style={styles.sectionHeader}
             >
-              <Heading as={"h3"} size={"md"}>
-                {w.position}
-              </Heading>
-              <Box dir="column">
-                <Heading style={styles.titleHeading}>{w.position}</Heading>
-                <Heading style={styles.dates}>
-                  {formatDate(w.startDate)}-{formatDate(w.endDate)}
+              My professional and educational experiences.
+            </Heading>
+            {work.map((w) => (
+              <ListItem
+                key={w.startDate}
+                style={styles.listItem}
+                _before={styles.listItemBefore}
+              >
+                <Heading as={"h3"} size={"md"}>
+                  {w.position}
                 </Heading>
-                <Text as={"p"} style={styles.institution}>
-                  <Link target={w.url}>{w.name}</Link>
-                </Text>
-                <Text as={"p"}>{w.summary}</Text>
-                {/*somehow get list of text*/}
-              </Box>
-            </ListItem>
-          ))}
-        </List>
-      </Box>
-    </Container>
+                <Box dir="column">
+                  <Heading style={styles.titleHeading}>{w.position}</Heading>
+                  <Heading style={styles.dates}>
+                    {formatDate(w.startDate)}-{formatDate(w.endDate)}
+                  </Heading>
+                  <Text as={"p"} style={styles.institution}>
+                    <Link target={w.url}>{w.name}</Link>
+                  </Text>
+                  <Text as={"p"}>{w.summary}</Text>
+                  {/*somehow get list of text*/}
+                </Box>
+              </ListItem>
+            ))}
+          </List>
+        </Box>
+      </Sidebar>
+    </Box>
   );
 }

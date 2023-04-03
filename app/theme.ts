@@ -976,7 +976,14 @@ import { extendTheme } from "@chakra-ui/react";
                     "font-size": "13px"
                 }
     },
-  },
+        },
+        colors: {
+            brand: {
+                primary: "#622F75",
+                greyPrimary: "#38383d",
+                greySecondary: "#42414d",
+              },
+        }
 };
 
 const customTheme = extendTheme(mainCSS)
