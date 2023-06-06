@@ -152,7 +152,7 @@ export default function Index() {
           <Heading as={"h1"} size={"lg"}>
             Current Spotify Top Songs:
           </Heading>
-          <ReactEmbedGist gist="Kiel-H-Byrne/9418a89d75a728575ad26f48cb074f08" />
+          <ReactEmbedGist gist="Kiel-H-Byrne/0b6d01415801c747c88b803e045e1cb0" />
         </Box>
         <Box>
           <Heading as={"h1"} size={"lg"}>

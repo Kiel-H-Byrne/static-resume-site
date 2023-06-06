@@ -84,7 +84,8 @@ export default function ReactEmbedGist(props: REGProps) {
       </article>
     );
   } else if (error) {
-    return <article className={errorClass}>{error}</article>;
+    console.log(error)
+    return null
   } else {
     return (
       <article className={wrapperClass}>

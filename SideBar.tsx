@@ -34,10 +34,10 @@ interface LinkItemProps {
 }
 const LinkItems: Array<LinkItemProps> = [
   { name: "Home", icon: ArrowBackIcon },
-  { name: "Trending", icon: ArrowUpIcon },
-  { name: "Explore", icon: SunIcon },
-  { name: "Favourites", icon: StarIcon },
-  { name: "Settings", icon: SettingsIcon },
+  { name: "Resume", icon: StarIcon },
+  { name: "Portfolio", icon: SunIcon },
+  { name: "Blog", icon: ArrowUpIcon },
+  { name: "About Me", icon: SettingsIcon },
 ];
 
 export default function Sidebar({ children }: { children: ReactNode }) {
